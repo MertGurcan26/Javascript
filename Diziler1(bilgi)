@@ -1,0 +1,46 @@
+
+var country = ['turkey', 'poland', 'bulgaria','abd'];
+var numbers = [15,25,35,45];
+var cn = ['turkey',15,null,undefined,['mustafa','23']];
+console.log(typeof cn)
+console.log(cn);
+//GET ARRAYS
+console.log(country[0]);
+console.log(cn[1]);
+
+// SET ARRAYS
+country[0] = 'bursa'; // başa ekler
+country[4] = 'istanbul' // 4üncü olarak ekleme yapar
+country[country.length] = 'samsun';  // en sona ekler
+
+//ADD ARRAYS İTEM
+
+country.push(19); // en sona ekler
+country.push('filiz');
+
+country.unshift(23); // en başa ekler
+country.shift(23); // en baştaki elemanı kaldırır
+
+// remove arrays item
+country.pop();
+country.shift()
+
+// REVERSE
+
+country.reverse(); // başı sona sonu başa alır
+
+//sort
+country.push(15); // eklediğim için bunu hesapa katarak short eder
+country.sort(); // alfabetik sıralama yapar başa sayıları alır
+
+//CONCAT
+
+var x = country.concat(numbers);
+
+x.sort();
+
+console.log(country);
+console.log(typeof country);
+console.log(numbers.lenght);
+console.log(x.lenght);
+
