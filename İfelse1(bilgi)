@@ -1,0 +1,44 @@
+// İF ELSE İFADELER
+
+
+var name = 'mustafa';
+var age = 23 ;
+var drivinglicence = true;
+
+if(name == 'mustafa')
+{
+    console.log('benim adım mustafa');
+}
+if(age == 23)
+{
+    console.log('23 yaşındyım')
+}
+    if(drivinglicence == false){
+        console.log('araç kullanırım')
+    }
+else{
+    console.log('araç kullanamazsın')
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+age = 19;
+drivingLicence = false;
+if(age > 18){
+    if(drivingLicence === true){
+        console.log('araç kullanabilirsiniz')
+    }
+    else{
+    console.log('sürücü belgeniz yok')
+    }
+}
+else{
+    console.log('yaşınız 18 den küçük')
+}
+
